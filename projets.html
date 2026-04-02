@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reda Hmoud - Projets</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Reda.H</a>
+            <button class="nav-toggle" aria-label="Ouvrir le menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="a-propos.html" class="nav-link">À propos de moi</a>
+                <a href="projets.html" class="nav-link">Projets - Réalisations</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main style="min-height: 100vh; padding-top: 70px; background-color: var(--bg-color);">
+        <section id="projets" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projets - Réalisations</h2>
+                <div class="projects-grid">
+                    <article class="project-card" style="padding: 0; overflow: hidden;">
+                        <img src="images/images.jpg" alt="Marché de l'Argan" style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 2.5rem 2rem; display: flex; flex-direction: column; flex-grow: 1;">
+                            <div class="project-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Projet 1 : Analyse Marketing - Marché de l'Argan</h3>
+                            <p class="project-desc">Étude stratégique sur la valorisation des produits du terroir marocain à l'échelle internationale. Ce projet analyse les circuits de distribution et propose des leviers de croissance numériques pour moderniser le secteur de l'huile d'argan.</p>
+                            <a href="#" class="btn-readmore">Lire plus</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" style="padding: 0; overflow: hidden;">
+                        <img src="images/Capture-d’écran-2020-05-31-à-15.23.12-min-1.png" alt="Intelligence Artificielle" style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 2.5rem 2rem; display: flex; flex-direction: column; flex-grow: 1;">
+                            <div class="project-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>Projet 2 : L'Impact de l'IA sur le Management Mondial</h3>
+                            <p class="project-desc">Analyse prospective sur l'intégration de l'intelligence artificielle dans la gestion des entreprises. Étude des transformations organisationnelles, de l'évolution du rôle du manager et de l'optimisation des processus de décision par la technologie.</p>
+                            <a href="#" class="btn-readmore">Lire plus</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Reda Hmoud. Tous droits réservés.</p>
+            <p>Étudiant en Business Administration - HECI Meknès</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
